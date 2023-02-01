@@ -1,0 +1,84 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    header *{
+        font-family: 'Open Sans', sans-serif;
+    }
+    header label{
+        font-size: 24px;
+        font-weight:bolder;
+        color:white;
+    }
+    header{
+        position:absolute;
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+        padding:10px 60px;
+    }
+    header nav{
+        align-self:center;
+    }
+    header nav a{
+        color:white;
+        text-decoration:none;
+        font-size:18px;
+        padding: 15px;
+    }
+    nav .icon{
+        font-size:26px;
+        display: none;
+    }
+    @media screen and (max-width:700px)
+    {
+        header nav div a
+        {
+            width: 85vw;
+            font-size: 14px;
+            text-align:center;
+        }
+        header{
+            padding:10px 30px;
+            width: 100vw;
+        }
+        nav .icon{
+            display: block;
+            margin:0;
+            padding:0;
+        }
+        nav div{
+            position:absolute;
+            width: 91vw;
+            left:0;
+            top: 70px;
+            margin: 0 20px;
+            background-color:#8673D1;
+            padding: 5px;
+            border-radius: 5px;
+            display:flex;
+            justify-content:space-around;
+        }
+        .close{
+            display:none;
+        }
+        .view{
+            display:block;
+        }
+    }
+</style>
+<script src="assets/js/menu.js"></script>
+<header>
+        <label>Club of Elite</label>
+        <nav>
+            <div id="menu" class="close">
+                <a href="#">Home</a>
+                <a href="#">Events</a>
+                <a href="#">Get Start</a>
+                <a href="#">Blog</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="menu()"><i  class="fa fa-bars"></i></a>
+        </nav>
+</header>
