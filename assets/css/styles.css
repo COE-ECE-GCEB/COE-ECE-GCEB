@@ -27,6 +27,41 @@
     text-align:center;
     max-width:85vw;
 }
+.event
+{
+    width:100vw;
+    height:98vh;
+    background-color:#F9DEDE;
+}
+.event h2{
+    padding: 50px;
+}
+.events{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    height:60%;
+}
+.event-div{
+    display:flex;
+    flex-direction:column;
+    background-color:#EBC7F8;
+    border-radius:20px;
+    padding:20px;
+    width:max-content;
+    margin:30px;
+}
+.event-div p{
+    display:block;
+    width:180px;
+    margin:10px auto;
+    text-align:center;
+}
+.event-div img{
+    width:200px;
+    border-radius:20px;
+}
 @media screen and (max-width: 700px){
     .hero h1{
         font-size: 28px;
