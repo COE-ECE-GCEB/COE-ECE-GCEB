@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 *{
     margin:0;
     padding:0;
@@ -35,6 +37,10 @@
 }
 .event h2{
     padding: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color:#8673D1;
+    font-weight:bolder;
+    text-align:center;
 }
 .events{
     display:flex;
@@ -51,15 +57,24 @@
     padding:20px;
     width:max-content;
     margin:30px;
+    box-shadow:3px 3px 10px 1px gray;
 }
-.event-div p{
+.event-div p, .event-div a p{
     display:block;
     width:180px;
     margin:10px auto;
     text-align:center;
+    font-family: 'Open Sans', sans-serif;
+    color:#632e77;
+    text-decoration:none;
+    font-weight: bold;
+}
+.event-div a{
+    text-decoration:none;
+    font-weight:bold;
 }
 .event-div img{
-    width:200px;
+    width:300px;
     border-radius:20px;
 }
 @media screen and (max-width: 700px){
@@ -68,6 +83,16 @@
     }
     .hero p{
         font-size: 20px;
+    }
+    .events{
+        flex-direction:column;
+    }
+    .event-div img{
+        width:200px;
+        border-radius:10px;
+    }
+    .event-div{
+        margin:1;
     }
 
 }

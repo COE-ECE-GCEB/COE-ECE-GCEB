@@ -186,9 +186,10 @@ This event is conducted to increase the awareness for the placement and placemen
 
 #### **Internships**
 <ul>
-<li><a href="https://buildyourfuture.withgoogle.com/programs/step">Google Internship</a></li>
+<li><a href="https://buildyourfuture.withgoogle.com/internships">Google Internship</a></li>
 <li><a href="https://summerofcode.withgoogle.com/">Google Summer of Code</a></li>
 <li><a href="https://developers.google.com/season-of-docs">Google Season of Docs</a></li>
+<li><a href="">Goldman Schs Engineering virtual program</a></li>
 <li>
     <details><summary>Microsoft Future Ready Talent</summary>
             Microsoft Certificate in (Azure fundamental, Azure AI fundamental, Azure Administrator, Azure Developer, Azure Security Technologies, Microsoft Power BI Data Analyst, Azure Ai Engineer Associate, GitHub) [All the course has offer, some them they provide 100% offer]<ul>
@@ -201,6 +202,18 @@ This event is conducted to increase the awareness for the placement and placemen
             </ul>
     </details>
 </li>
+<li>
+<details><summary>other virtual internships, searching platform, startup</summary>
+<a href="https://www.workatastartup.com/">Workatastartup.com</a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+<a href=""></a>
+
+</details>
+</li>
+<li> Open source Contribution </li>
 </ul>
 
 
