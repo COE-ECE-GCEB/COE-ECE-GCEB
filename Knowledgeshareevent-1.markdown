@@ -229,3 +229,15 @@ This event is conducted to increase the awareness for the placement and placemen
     - GitHub Campus expert
     - [Website link](https://education.github.com/pack)
 - [for more check here](https://freeforstudents.org/)
+
+## Organizer
+
+Prof. R.Ranjith AP/ECE
+
+### Speakers
+- P.Cibi
+- M.NiyasKhan
+- S.Sennila
+- N.Divya
+- S.Sharuhashine
+- V.Pavithra
