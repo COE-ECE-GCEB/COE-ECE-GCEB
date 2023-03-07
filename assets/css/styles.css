@@ -3,8 +3,11 @@
 *{
     margin:0;
     padding:0;
-    box-sizing:border-box;
+    box-sizing:border-box !important;
     font-family: 'Open Sans', sans-serif;
+}
+body{
+    width:100vw !important;
 }
 section .ece-gceb{
     font-size:14px !important;
@@ -22,30 +25,19 @@ section .ece-gceb{
     animation-duration:2s;
     animation-iteration-count: infinite;
 }
-@keyframes bg-hro-anim{
-  0% {
-    background:linear-gradient(0,#8673D1,#C86B9D);
-}
-  50% {
-    background:linear-gradient(180,#8673D1,#C86B9D);
-  }
-  100% {
-    background:linear-gradient(0,#8673D1,#C86B9D);
-  }
-}
+
 .hero h1{
     color:white;
     font-size: 40px;
     padding-bottom:20px;
     font-weight:bolder;
     text-align:center;
-    max-width:85vw;
 }
 .hero p{
     color:white;
     font-size:30px;
     text-align:center;
-    max-width:85vw;
+    max-width:80vw;
 }
 .event
 {
@@ -56,7 +48,8 @@ section .ece-gceb{
 .event h2{
     padding: 50px;
     font-family: 'Open Sans', sans-serif;
-    color:#8673D1;
+    color:#b89999;
+    font-size:30px;
     font-weight:bolder;
     text-align:center;
 }
@@ -70,9 +63,9 @@ section .ece-gceb{
 .event-div{
     display:flex;
     flex-direction:column;
-    background-color:#EBC7F8;
+    background-color:#bf9696;
     border-radius:20px;
-    padding:20px;
+    padding:0px 0px 20px 0px;
     width:max-content;
     margin:30px;
     box-shadow:3px 3px 10px 1px gray;
@@ -83,7 +76,7 @@ section .ece-gceb{
     margin:10px auto;
     text-align:center;
     font-family: 'Open Sans', sans-serif;
-    color:#632e77;
+    color:#fff1f1;
     text-decoration:none;
     font-weight: bold;
 }
@@ -94,6 +87,32 @@ section .ece-gceb{
 .event-div img{
     width:300px;
     border-radius:20px;
+}
+/* Tholil*/
+.tholil-container{
+    width:100%;
+    height:98vh;
+    background-color:#E9E3FF;
+    padding: 10px 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.tholil-container p{
+    font-size: 24px;
+    width:40%;
+    color:#7c7498;
+    margin: 10px 40px;
+}
+.tholil-container a{
+    font-size:30px;
+    text-decoration: none;
+    border: 2px solid #7c7498;
+    padding:6px 30px;
+    border-radius: 10px;
+    color:#7c7498;
+    box-shadow: 0px 0px 10px #7c7498;
 }
 @media screen and (max-width: 700px){
     .hero h1{
