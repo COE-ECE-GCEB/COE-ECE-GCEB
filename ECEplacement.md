@@ -1,3 +1,7 @@
+---
+layout: Event
+---
+
 # ECE Placement
 ## ECE Placement Domain
 - Embedded Engineer
